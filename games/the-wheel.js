@@ -6011,7 +6011,7 @@
                         if (this.isTap(e)) return void this.onTap(t);
                         if (s < -10) return this.cancelSpin(s, .25), void this.$emit("statusChange", {
                             type: "incorrect",
-                            bannerText: "НЕ ТУДА КРУТИ",
+                            bannerText: "НЕ ТУДА КРУТИ, дурачок",
                             timeout: 1e3
                         });
                         if (s < 150) return this.cancelSpin(s, .75), void this.$emit("statusChange", {
